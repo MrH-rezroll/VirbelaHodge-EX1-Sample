@@ -20,7 +20,7 @@ This test is broken into multiple phases. You can implement one phase at a time 
  1. Configure the scene:
      1. Add a central object named "Player"
      1. Add 5 objects named "Item", randomly distributed around the central object
- 1. Add two C# scripts named "Player" and "Item" to you project
+ 1. Add two C# scripts named "Player" and "Item" to your project
      1. Attach the scripts to the objects in the scene according to their name, Item script goes on Item objects, Player script goes on Player object.
      1. You may use these scripts or ignore them when pursuing the Functional Goals, the choice is yours. You're free to add any additional scripts you require to meet the functional goals.
 
