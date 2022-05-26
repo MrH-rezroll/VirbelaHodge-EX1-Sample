@@ -52,7 +52,7 @@ This test is broken into multiple phases. You can implement one phase at a time 
 
 ## Optional ##
 
-* Make use of a dependency injection framework to implement the functional goals using contracts, separating concerns
+* Make use of dependency injection when implementing the functional goals. Feel free to use an existing framework or create your own.
 * Add Unit Tests
 * Add XML docs
 * Have the logger also write to a file
