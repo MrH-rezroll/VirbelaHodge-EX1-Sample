@@ -60,7 +60,7 @@ Allow the designer to choose the base color and highlight color for Items/Bots a
 
 ## Optional ##
 
-* Make use of a dependency injection framework to implement the functional goals using contracts, separating concerns
+* Find a way to make use of dependency injection when implementing the functional goals. Feel free to use an existing framework or create your own.
 * Add Unit Tests
 * Add XML docs
 * Optimize finding nearest
