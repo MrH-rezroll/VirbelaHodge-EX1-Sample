@@ -60,12 +60,12 @@ Allow the designer to choose the base color and highlight color for Items/Bots a
 
 ## Optional ##
 
-* Find a way to make use of dependency injection when implementing the functional goals. Feel free to use an existing framework or create your own.
 * Add Unit Tests
 * Add XML docs
 * Optimize finding nearest
 * Add new Items/Bots automatically on key press
 * Read/write Item/Bot/Player state to a file and restore on launch
+* Restructure your code to leverage [SOLID](https://en.wikipedia.org/wiki/SOLID) principles. (comment and tag any revisions for this)
 
 ## Next Steps ##
 
