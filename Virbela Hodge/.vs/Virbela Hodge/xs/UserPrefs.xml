@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{3A45AB67-F8EA-5BE2-6B0E-6D7C5EB30ABE}|">
-  <MonoDevelop.Ide.ItemProperties.ScriptsAssembly PreferredExecutionTarget="cc0b304b-5663-4dee-a48c-a61d74e17c76" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Contracts/IVBHObject.cs">
+  <MonoDevelop.Ide.ItemProperties.ScriptsAssembly PreferredExecutionTarget="558410dd-2d45-407d-8a07-038bf889c550" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/UnitTests/VBHObjectTests.cs">
     <Files>
-      <File FileName="Assets/Scripts/MonoBehaviours/Pawn.cs" Line="37" Column="93" />
+      <File FileName="Assets/Editor/UnitTests/VBHObjectTests.cs" Line="2" Column="19" />
+      <File FileName="Assets/Scripts/MonoBehaviours/Pawn.cs" />
       <File FileName="Assets/Scripts/MonoBehaviours/Player.cs" />
-      <File FileName="Assets/Scripts/MonoBehaviours/Item.cs" Line="14" Column="54" />
-      <File FileName="Assets/Scripts/MonoBehaviours/Bot.cs" Line="15" Column="52" />
+      <File FileName="Assets/Scripts/MonoBehaviours/Item.cs" Line="25" Column="37" />
+      <File FileName="Assets/Scripts/MonoBehaviours/Bot.cs" />
       <File FileName="Assets/Scripts/Contracts/IVBHObject.cs" Line="65" Column="36" />
       <File FileName="Assets/Scripts/ScriptableObjects/ResourceData.cs" />
-      <File FileName="Assets/Scripts/MonoBehaviours/GameControl.cs" Line="186" Column="22" />
-      <File FileName="Assets/Scripts/ScriptableObjects/GameplayData.cs" Line="81" Column="26" />
+      <File FileName="Assets/Scripts/MonoBehaviours/GameControl.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/GameplayData.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,12 +18,12 @@
           <Node name="Virbela Hodge" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Editor" expanded="True">
-                <Node name="UnitTests" expanded="True" />
+                <Node name="UnitTests" expanded="True">
+                  <Node name="VBHObjectTests.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="Contracts" expanded="True">
-                  <Node name="IVBHObject.cs" selected="True" />
-                </Node>
+                <Node name="Contracts" expanded="True" />
                 <Node name="MonoBehaviours" expanded="True" />
                 <Node name="ScriptableObjects" expanded="True" />
               </Node>

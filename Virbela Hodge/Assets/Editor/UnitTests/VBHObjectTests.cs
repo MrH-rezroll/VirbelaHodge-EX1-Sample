@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.TestTools;
+using VirbelaHodge.Scripts.Contracts;
 using VirbelaHodge.Scripts.VBHOs.Items;
 using VirbelaHodge.Scripts.VBHOs.Pawns;
 
@@ -32,7 +30,7 @@ public class VBHObjectTests
         // Act
         itemComponent.VBHOInitialize();
         // Assert
-        Assert.AreEqual(itemComponent.TheObjectRole, "Item");
+        Assert.AreEqual(itemComponent.TheObjectRole, VBHORole.Item);
     }
     [Test]
     [Category("VBHObject Initialization")]
@@ -41,7 +39,7 @@ public class VBHObjectTests
         // Act
         botComponent.VBHOInitialize();
         // Assert
-        Assert.AreEqual(botComponent.TheObjectRole, "Bot");
+        Assert.AreEqual(botComponent.TheObjectRole, VBHORole.Bot);
     }
     [Test]
     [Category("VBHObject Initialization")]
@@ -50,6 +48,6 @@ public class VBHObjectTests
         // Act
         playerComponent.VBHOInitialize();
         // Assert
-        Assert.AreEqual(playerComponent.TheObjectRole, "Player");
+        Assert.AreEqual(playerComponent.TheObjectRole, VBHORole.Player);
     }
 }
