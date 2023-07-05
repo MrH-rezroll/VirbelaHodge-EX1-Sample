@@ -1,0 +1,632 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control" kind="class" language="C#" prot="public">
+    <compoundname>VirbelaHodge::Scripts::Control::GameControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a4938e3a8ec3e749aa73725e3c32e465f" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control" kindref="compound">GameControl</ref></type>
+        <definition>GameControl VirbelaHodge.Scripts.Control.GameControl.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="19" column="35" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a8dbbc4cde7c584a0b037fe1552323c1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int VirbelaHodge.Scripts.Control.GameControl.ItemAmount</definition>
+        <argsstring></argsstring>
+        <name>ItemAmount</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.ItemAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="21" column="20" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1af2927f92ed66f20913a01458f976c255" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int VirbelaHodge.Scripts.Control.GameControl.BotAmount</definition>
+        <argsstring></argsstring>
+        <name>BotAmount</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.BotAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="22" column="20" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a5f8e8ee664cb9a657b32ca6309a601b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; <ref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kindref="compound">IVBHObject</ref> &gt;</type>
+        <definition>List&lt;IVBHObject&gt; VirbelaHodge.Scripts.Control.GameControl.VBHObjects</definition>
+        <argsstring></argsstring>
+        <name>VBHObjects</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.VBHObjects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="23" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a2755ad079b8485a526aaa872defe6cd8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string VirbelaHodge.Scripts.Control.GameControl.BotAndItemPlacementNote</definition>
+        <argsstring></argsstring>
+        <name>BotAndItemPlacementNote</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.BotAndItemPlacementNote</qualifiedname>
+        <initializer>= &quot;While playing, press Q and A to add/remove Bots. Press W and S to add/remove Items.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="26" column="24" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a5cc225f1af345d49467412aecffd11f3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string VirbelaHodge.Scripts.Control.GameControl.BotAndItemGenerationNote</definition>
+        <argsstring></argsstring>
+        <name>BotAndItemGenerationNote</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.BotAndItemGenerationNote</qualifiedname>
+        <initializer>= &quot;Regardless of how many items or bots are present when saving, &quot; +
+            &quot;there will always be at least the items or bots specifically placed in the scene before playing. &quot; +
+            &quot;If you would like the bot/item count to be completely accurate on load, put no items/bots in the scene &quot; +
+            &quot;and place them while playing.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="29" column="24" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ac1f8a4a2439ee6dd1a2f676046300af9" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color VirbelaHodge.Scripts.Control.GameControl.baseItemColor</definition>
+        <argsstring></argsstring>
+        <name>baseItemColor</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.baseItemColor</qualifiedname>
+        <briefdescription>
+<para>The section in the editor allowing designers to easily identify and adjust Item values relavent to their tasks. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="41" column="23" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a9a6698895b886dde45db91e48715de73" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color VirbelaHodge.Scripts.Control.GameControl.highlightedItemColor</definition>
+        <argsstring></argsstring>
+        <name>highlightedItemColor</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.highlightedItemColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="43" column="23" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a3b09314a65a08b4189801938462a6940" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VirbelaHodge.Scripts.Control.GameControl.loadPreviousItems</definition>
+        <argsstring></argsstring>
+        <name>loadPreviousItems</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.loadPreviousItems</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="46" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a31206f71a5a55564656e4a50e1074688" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VirbelaHodge.Scripts.Control.GameControl.itemAmount</definition>
+        <argsstring></argsstring>
+        <name>itemAmount</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.itemAmount</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="48" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a7b5190055cff82dd799cd02d1ae9262f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VirbelaHodge.Scripts.Control.GameControl.itemGeneratorSeed</definition>
+        <argsstring></argsstring>
+        <name>itemGeneratorSeed</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.itemGeneratorSeed</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="50" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ab8b0c7f4dcce0067c1ad40b4728505ae" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color VirbelaHodge.Scripts.Control.GameControl.baseBotColor</definition>
+        <argsstring></argsstring>
+        <name>baseBotColor</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.baseBotColor</qualifiedname>
+        <briefdescription>
+<para>The section in the editor allowing designers to easily identify and adjust Bot values relavent to their tasks. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="59" column="23" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a618fc3c82b6aa1cedb5f9b3d64296afb" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color VirbelaHodge.Scripts.Control.GameControl.highlightedBotColor</definition>
+        <argsstring></argsstring>
+        <name>highlightedBotColor</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.highlightedBotColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="61" column="23" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a1db1ccf7aee1ce27f2b1b2beeb0f5d21" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VirbelaHodge.Scripts.Control.GameControl.loadPreviousBots</definition>
+        <argsstring></argsstring>
+        <name>loadPreviousBots</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.loadPreviousBots</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="64" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a50c8130e675badbeafd565a73ca39ee2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VirbelaHodge.Scripts.Control.GameControl.botAmount</definition>
+        <argsstring></argsstring>
+        <name>botAmount</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.botAmount</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="66" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a83c26c3427319947203ca55cf99923c4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VirbelaHodge.Scripts.Control.GameControl.botGeneratorSeed</definition>
+        <argsstring></argsstring>
+        <name>botGeneratorSeed</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.botGeneratorSeed</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="68" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1aa40f9d3c415158c8fcab8c845f7add0e" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kindref="compound">IVBHObject</ref> &gt;</type>
+        <definition>List&lt;IVBHObject&gt; VirbelaHodge.Scripts.Control.GameControl.vBHObjects</definition>
+        <argsstring></argsstring>
+        <name>vBHObjects</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.vBHObjects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="70" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ac1df999a977155b6b877c1010ec6983b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_player" kindref="compound">Player</ref></type>
+        <definition>Player VirbelaHodge.Scripts.Control.GameControl.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.player</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="71" column="24" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ad469f66a12da1fd061143ec83453efce" prot="private" static="no" mutable="no">
+        <type><ref refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data" kindref="compound">GameplayData</ref></type>
+        <definition>GameplayData VirbelaHodge.Scripts.Control.GameControl.gameplayData</definition>
+        <argsstring></argsstring>
+        <name>gameplayData</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.gameplayData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="72" column="30" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a19c6d9fc59277b448ed9f45ea124c33e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data" kindref="compound">ResourceData</ref></type>
+        <definition>ResourceData VirbelaHodge.Scripts.Control.GameControl.resourceData</definition>
+        <argsstring></argsstring>
+        <name>resourceData</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.resourceData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="73" column="30" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a18cb293649d29a249c2a7ec55241290e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VirbelaHodge.Scripts.Control.GameControl.gameState</definition>
+        <argsstring></argsstring>
+        <name>gameState</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.gameState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="74" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a30406994f055b0aeaad7d4bf39a288e1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VirbelaHodge.Scripts.Control.GameControl.canManipulateVBHObjectCount</definition>
+        <argsstring></argsstring>
+        <name>canManipulateVBHObjectCount</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.canManipulateVBHObjectCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="75" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a433f66e22911fb4dbb14cc2cdc06918f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.OnValidate</qualifiedname>
+        <briefdescription>
+<para>Unity&apos;s OnValidate Hook is used to allow Edit Time changes to item/bot colors. Using this hook allows the desired fucntionality to effect only the materals used whereas the [ExecuteInEditMode] tag would cause all functionality to work in Edit Time, creating mass chaos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="84" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="84" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a102289a3fb0d8264ede01254e6dde28c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.Awake</qualifiedname>
+        <briefdescription>
+<para>Enusure everything that needs to be setup for first initialization is ready to go. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="97" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="97" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a0371ca455662d1e07017f7eecde1af96" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.Start</qualifiedname>
+        <briefdescription>
+<para>Initialize values for all elements of the game, any elements requiring pre initialization steps should occure in Awake. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="114" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="114" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1adc925b916b5bde9e398c293ea6af212a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.Update</qualifiedname>
+        <briefdescription>
+<para>Unity&apos;s Update hook is used to select the appropriate logic for the game&apos;s current state. Different state&apos;s represent different phases of the program. For example, state 0 could be the splash screen and main menu. State 1 is where gameplay happens. Additional states could be for Game Over conditions, pause conditions, or any other situation where the core gameplay shouldn&apos;t run. For this demo, only the gameplay state is used. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="133" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="133" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ae381cbb55e2e455834148a6f764c2566" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.OnApplicationQuit</definition>
+        <argsstring>()</argsstring>
+        <name>OnApplicationQuit</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.OnApplicationQuit</qualifiedname>
+        <briefdescription>
+<para>Used to start saving Player/Item/Bot amount and locations before the application quits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="157" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1aa7ec261300eac5417504386845e5836a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.SetGameState</definition>
+        <argsstring>(int newState)</argsstring>
+        <name>SetGameState</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.SetGameState</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+<para>Set&apos;s the games new state and initializes any setup required before Update runs that state&apos;s logic. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newState</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The state the game will enter.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="190" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="190" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ae329ad48c8f7b78f46a2ae83be269bf0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.AddOneItem</definition>
+        <argsstring>()</argsstring>
+        <name>AddOneItem</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.AddOneItem</qualifiedname>
+        <briefdescription>
+<para>This will add a single new Item adhering to the IVBHObject contract and place it approriatley in the scene. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="207" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="207" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a1440b4c659603007f7de1c23a137817a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.AddOneBot</definition>
+        <argsstring>()</argsstring>
+        <name>AddOneBot</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.AddOneBot</qualifiedname>
+        <briefdescription>
+<para>This will add a single new Bot adhering to the IVBHObject contract and place it approriatley in the scene. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="219" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="219" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a0a449de4add62172874bcdafdc9d3792" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.RemoveLastItem</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveLastItem</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.RemoveLastItem</qualifiedname>
+        <briefdescription>
+<para>This will remove the last Item adhering to the IVBHObject contract from the scene, and all appropriate places in code. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="231" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="231" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a44ad66e03fe73dd36985f383a8449d06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.RemoveLastBot</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveLastBot</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.RemoveLastBot</qualifiedname>
+        <briefdescription>
+<para>This will remove the last Bot adhering to the IVBHObject contract from the scene, and all appropriate places in code. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="245" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="245" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a9976187aacd613a63cb5ce65d66bd0f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator VirbelaHodge.Scripts.Control.GameControl.CleanUpUnusedVBHOs</definition>
+        <argsstring>()</argsstring>
+        <name>CleanUpUnusedVBHOs</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.CleanUpUnusedVBHOs</qualifiedname>
+        <briefdescription>
+<para>Removes any null VBHObjects from the vBHObject List and then resumes the nearest item/bot search after cleanup. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>WaitForEndOfFrame - The signal that the frame has ended, allowing code execution of the coroutine to resume.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="264" column="29" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="264" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1abb2450aad839a0e0f333c09a854bc1ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator VirbelaHodge.Scripts.Control.GameControl.NearestVBHObject</definition>
+        <argsstring>()</argsstring>
+        <name>NearestVBHObject</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.NearestVBHObject</qualifiedname>
+        <briefdescription>
+<para>Iterates over the VBHObjects list and returns a reference the the VBHO closest to the Player. This is using a bubble sort that could be optimized by replacing with a KD-Tree given more time. As part of the sorting task, this function is also making decisions about which shared material the VBHObjects should have. This is done here to reduce the amount of times a foreach loop is required. Additionally, this search is done in a coroutine to keep the main thread free to process core gameplay functionality. It should help with performance. The &quot;yield return null&quot; is placed such that the each iteration of the while loop will wait for a new frame to execute. This means the loop runs slower, but it&apos;s not noticable to the user and evens performance in other areas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>null - The signal to wait until the next frame to continue the while loop.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="283" column="29" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="283" bodyend="321"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a483efad5af4f2aeb4301cc8fdb2c959d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.GenerateItems</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateItems</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.GenerateItems</qualifiedname>
+        <briefdescription>
+<para>Calls IVBHObject to generate Items. This is public so that the load system can access it when restoring Item amount and locations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="169" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="169" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a9dc6cfa914d53441edf6d4960b86885b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Control.GameControl.GenerateBots</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateBots</name>
+        <qualifiedname>VirbelaHodge.Scripts.Control.GameControl.GenerateBots</qualifiedname>
+        <briefdescription>
+<para>Calls IVBHObject to generate Bots. This is public so that the load system can access it when restoring Bot amount and locations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="178" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="178" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The GameControl class is the business logic for this example. It controls the behavior of the Main scene&apos;s assets. It makes decisions by monitoring user input and environment conditions such as proximity of player to other assets. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>VirbelaHodge.Scripts.Control.GameControl</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>VirbelaHodge.Scripts.Control.GameControl</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" line="17" column="11" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/GameControl.cs" bodystart="18" bodyend="323"/>
+    <listofallmembers>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a1440b4c659603007f7de1c23a137817a" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>AddOneBot</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ae329ad48c8f7b78f46a2ae83be269bf0" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>AddOneItem</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a102289a3fb0d8264ede01254e6dde28c" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>Awake</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ab8b0c7f4dcce0067c1ad40b4728505ae" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>baseBotColor</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ac1f8a4a2439ee6dd1a2f676046300af9" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>baseItemColor</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a50c8130e675badbeafd565a73ca39ee2" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>botAmount</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1af2927f92ed66f20913a01458f976c255" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>BotAmount</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a5cc225f1af345d49467412aecffd11f3" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>BotAndItemGenerationNote</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a2755ad079b8485a526aaa872defe6cd8" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>BotAndItemPlacementNote</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a83c26c3427319947203ca55cf99923c4" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>botGeneratorSeed</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a30406994f055b0aeaad7d4bf39a288e1" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>canManipulateVBHObjectCount</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a9976187aacd613a63cb5ce65d66bd0f1" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>CleanUpUnusedVBHOs</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ad469f66a12da1fd061143ec83453efce" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>gameplayData</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a18cb293649d29a249c2a7ec55241290e" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>gameState</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a9dc6cfa914d53441edf6d4960b86885b" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>GenerateBots</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a483efad5af4f2aeb4301cc8fdb2c959d" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>GenerateItems</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a618fc3c82b6aa1cedb5f9b3d64296afb" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>highlightedBotColor</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a9a6698895b886dde45db91e48715de73" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>highlightedItemColor</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a4938e3a8ec3e749aa73725e3c32e465f" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>Instance</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a8dbbc4cde7c584a0b037fe1552323c1c" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>ItemAmount</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a31206f71a5a55564656e4a50e1074688" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>itemAmount</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a7b5190055cff82dd799cd02d1ae9262f" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>itemGeneratorSeed</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a1db1ccf7aee1ce27f2b1b2beeb0f5d21" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>loadPreviousBots</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a3b09314a65a08b4189801938462a6940" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>loadPreviousItems</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1abb2450aad839a0e0f333c09a854bc1ec" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>NearestVBHObject</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ae381cbb55e2e455834148a6f764c2566" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>OnApplicationQuit</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a433f66e22911fb4dbb14cc2cdc06918f" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>OnValidate</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1ac1df999a977155b6b877c1010ec6983b" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>player</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a44ad66e03fe73dd36985f383a8449d06" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>RemoveLastBot</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a0a449de4add62172874bcdafdc9d3792" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>RemoveLastItem</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a19c6d9fc59277b448ed9f45ea124c33e" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>resourceData</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1aa7ec261300eac5417504386845e5836a" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>SetGameState</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a0371ca455662d1e07017f7eecde1af96" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>Start</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1adc925b916b5bde9e398c293ea6af212a" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>Update</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1a5f8e8ee664cb9a657b32ca6309a601b0" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>VBHObjects</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_control_1_1_game_control_1aa40f9d3c415158c8fcab8c845f7add0e" prot="private" virt="non-virtual"><scope>VirbelaHodge::Scripts::Control::GameControl</scope><name>vBHObjects</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

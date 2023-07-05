@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="namespace_virbela_hodge_1_1_scripts_1_1_contracts" kind="namespace" language="C#">
+    <compoundname>VirbelaHodge::Scripts::Contracts</compoundname>
+    <innerclass refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" prot="public">VirbelaHodge::Scripts::Contracts::IVBHObject</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_virbela_hodge_1_1_scripts_1_1_contracts_1a785d9110742cfe7fa79af7feee994642" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>VBHORole</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.VBHORole</qualifiedname>
+        <enumvalue id="namespace_virbela_hodge_1_1_scripts_1_1_contracts_1a785d9110742cfe7fa79af7feee994642a7d74f3b92b19da5e606d737d339a9679" prot="public">
+          <name>Item</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_virbela_hodge_1_1_scripts_1_1_contracts_1a785d9110742cfe7fa79af7feee994642a1448e86d90e0feb307c2894c24e87767" prot="public">
+          <name>Bot</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_virbela_hodge_1_1_scripts_1_1_contracts_1a785d9110742cfe7fa79af7feee994642a636da1d35e805b00eae0fcd8333f9234" prot="public">
+          <name>Player</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="9" column="11" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

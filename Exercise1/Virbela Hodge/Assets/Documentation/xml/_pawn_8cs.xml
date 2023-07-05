@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="_pawn_8cs" kind="file" language="C#">
+    <compoundname>Pawn.cs</compoundname>
+    <innerclass refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn" prot="public">VirbelaHodge::Scripts::VBHOs::Pawns::Pawn</innerclass>
+    <innernamespace refid="namespace_virbela_hodge">VirbelaHodge</innernamespace>
+    <innernamespace refid="namespace_virbela_hodge_1_1_scripts">VirbelaHodge::Scripts</innernamespace>
+    <innernamespace refid="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os">VirbelaHodge::Scripts::VBHOs</innernamespace>
+    <innernamespace refid="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns">VirbelaHodge::Scripts::VBHOs::Pawns</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_virbela_hodge_1_1_scripts_1_1_contracts" kindref="compound">VirbelaHodge.Scripts.Contracts</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns" kindref="compound">VirbelaHodge.Scripts.VBHOs.Pawns</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn" kindref="compound">Pawn</ref><sp/>:<sp/>MonoBehaviour,<sp/><ref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kindref="compound">IVBHObject</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//The<sp/>following<sp/>references<sp/>ensure<sp/>that<sp/>a<sp/>VBHObject<sp/>has<sp/>access<sp/>to<sp/>the<sp/>GameObject<sp/>Components<sp/>it<sp/>will<sp/>work<sp/>with.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/>TheTransform<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pawnTransform;<sp/>}<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>{<sp/>}<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Renderer<sp/>TheRenderer<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pawnRenderer;<sp/>}<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>{<sp/>pawnRenderer<sp/>=<sp/>value;<sp/>}<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/>TheGameObject<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>theGameObject;<sp/>}<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>{<sp/>theGameObject<sp/>=<sp/>value;<sp/>}<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//This<sp/>is<sp/>set<sp/>by<sp/>a<sp/>concrete<sp/>class<sp/>and<sp/>used<sp/>for<sp/>the<sp/>business<sp/>logic<sp/>to<sp/>easily<sp/>identify<sp/>what<sp/>this<sp/>Pawn&apos;s<sp/>purpose<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//from<sp/>the<sp/>base<sp/>class,<sp/>without<sp/>the<sp/>base<sp/>class<sp/>needing<sp/>to<sp/>be<sp/>aware<sp/>of<sp/>the<sp/>child<sp/>classes<sp/>specific<sp/>functionality.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>VBHORole<sp/>TheObjectRole<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//The<sp/>following<sp/>references<sp/>allow<sp/>both<sp/>the<sp/>base<sp/>and<sp/>concrete(child)<sp/>class<sp/>instances<sp/>to<sp/>reference<sp/>their<sp/>relavent<sp/>information.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>Transform<sp/>pawnTransform;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>Renderer<sp/>pawnRenderer;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>GameObject<sp/>theGameObject;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1a40052761c25b6b27e36a00ce3ba61958" kindref="member">VBHOInitialize</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pawnTransform<sp/>=<sp/>GetComponent&lt;Transform&gt;();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pawnRenderer<sp/>=<sp/>GetComponent&lt;Renderer&gt;();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>theGameObject<sp/>=<sp/>gameObject;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1ad87e0e01929927c70dbeb4afefcb9f4c" kindref="member">VBHOUpdate</ref>(){}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Pawn.cs"/>
+  </compounddef>
+</doxygen>

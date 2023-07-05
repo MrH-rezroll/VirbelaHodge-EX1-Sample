@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="_bot_8cs" kind="file" language="C#">
+    <compoundname>Bot.cs</compoundname>
+    <innerclass refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot" prot="public">VirbelaHodge::Scripts::VBHOs::Pawns::Bot</innerclass>
+    <innernamespace refid="namespace_virbela_hodge">VirbelaHodge</innernamespace>
+    <innernamespace refid="namespace_virbela_hodge_1_1_scripts">VirbelaHodge::Scripts</innernamespace>
+    <innernamespace refid="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os">VirbelaHodge::Scripts::VBHOs</innernamespace>
+    <innernamespace refid="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns">VirbelaHodge::Scripts::VBHOs::Pawns</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns" kindref="compound">VirbelaHodge.Scripts.VBHOs.Pawns</ref></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot" kindref="compound">Bot</ref><sp/>:<sp/><ref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn" kindref="compound">Pawn</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot_1a7d4f4a521823b003e7986de49f61f41e" kindref="member">VBHOInitialize</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.VBHOInitialize();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TheObjectRole<sp/>=<sp/>Contracts.VBHORole.Bot;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot_1a50d95548b84647d07430995775227f70" kindref="member">VBHOUpdate</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.VBHOUpdate();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Bot.cs"/>
+  </compounddef>
+</doxygen>

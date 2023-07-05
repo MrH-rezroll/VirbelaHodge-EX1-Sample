@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns" kind="namespace" language="C#">
+    <compoundname>VirbelaHodge::Scripts::VBHOs::Pawns</compoundname>
+    <innerclass refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot" prot="public">VirbelaHodge::Scripts::VBHOs::Pawns::Bot</innerclass>
+    <innerclass refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn" prot="public">VirbelaHodge::Scripts::VBHOs::Pawns::Pawn</innerclass>
+    <innerclass refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_player" prot="public">VirbelaHodge::Scripts::VBHOs::Pawns::Player</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Bot.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data" kind="class" language="C#" prot="protected">
+    <compoundname>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1a5714aa7e5e9aa3a2d7eb53b18c94f0e0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>float</type>
+        <definition>float VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.PlayerPositionX</definition>
+        <argsstring></argsstring>
+        <name>PlayerPositionX</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.PlayerPositionX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="101" column="26" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1ab2a67e0311d78d5c064ce86fd5e00fb1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>float</type>
+        <definition>float VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.PlayerPositionY</definition>
+        <argsstring></argsstring>
+        <name>PlayerPositionY</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.PlayerPositionY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="102" column="26" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1abb92d60f7d5ea854ede60951e002a792" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>float</type>
+        <definition>float VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.PlayerPositionZ</definition>
+        <argsstring></argsstring>
+        <name>PlayerPositionZ</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.PlayerPositionZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="103" column="26" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1a70bb7e063aaf62bad1b3c9679987da24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.ItemCount</definition>
+        <argsstring></argsstring>
+        <name>ItemCount</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.ItemCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="104" column="24" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1ad25e8a65d6620aa8b0abc9e9225f5481" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; float &gt;</type>
+        <definition>List&lt;float&gt; VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.ItemPositionsX</definition>
+        <argsstring></argsstring>
+        <name>ItemPositionsX</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.ItemPositionsX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="105" column="25" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1a5e499b934444494581faacea882f5ab5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; float &gt;</type>
+        <definition>List&lt;float&gt; VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.ItemPositionsY</definition>
+        <argsstring></argsstring>
+        <name>ItemPositionsY</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.ItemPositionsY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="106" column="25" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1aa4967a804863766f27e8a82fc716c9f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; float &gt;</type>
+        <definition>List&lt;float&gt; VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.ItemPositionsZ</definition>
+        <argsstring></argsstring>
+        <name>ItemPositionsZ</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.ItemPositionsZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="107" column="25" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1a4a090e7830095ed0c4cebb2a1f0e990d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.BotCount</definition>
+        <argsstring></argsstring>
+        <name>BotCount</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.BotCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="108" column="24" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1aadae8e13e85479b7faed79834838c41b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; float &gt;</type>
+        <definition>List&lt;float&gt; VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.BotPositionsX</definition>
+        <argsstring></argsstring>
+        <name>BotPositionsX</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.BotPositionsX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="109" column="25" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1ae4507091b5c9a5bf2dbd027fe1f1a9fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; float &gt;</type>
+        <definition>List&lt;float&gt; VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.BotPositionsY</definition>
+        <argsstring></argsstring>
+        <name>BotPositionsY</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.BotPositionsY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="110" column="25" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1ab8ed90ee4b68412034cc2a0c5a4614d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; float &gt;</type>
+        <definition>List&lt;float&gt; VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.BotPositionsZ</definition>
+        <argsstring></argsstring>
+        <name>BotPositionsZ</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.BotPositionsZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="111" column="25" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="111" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1a7ca5978be8fe0b45014a984f420b9868" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.SaveGameData</definition>
+        <argsstring>(Vector3 playerPosition, int itemCount, int botCount, List&lt; IVBHObject &gt; vBHOs)</argsstring>
+        <name>SaveGameData</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.GameplayData.SaveGameData.SaveGameData</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>playerPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>itemCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>botCount</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kindref="compound">IVBHObject</ref> &gt;</type>
+          <declname>vBHOs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="113" column="20" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="113" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The subclass used with a BinaryFormatter to save and load data. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" line="99" column="18" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/GameplayData.cs" bodystart="100" bodyend="142"/>
+    <listofallmembers>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1a4a090e7830095ed0c4cebb2a1f0e990d" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>BotCount</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1aadae8e13e85479b7faed79834838c41b" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>BotPositionsX</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1ae4507091b5c9a5bf2dbd027fe1f1a9fb" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>BotPositionsY</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1ab8ed90ee4b68412034cc2a0c5a4614d2" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>BotPositionsZ</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1a70bb7e063aaf62bad1b3c9679987da24" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>ItemCount</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1ad25e8a65d6620aa8b0abc9e9225f5481" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>ItemPositionsX</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1a5e499b934444494581faacea882f5ab5" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>ItemPositionsY</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1aa4967a804863766f27e8a82fc716c9f4" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>ItemPositionsZ</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1a5714aa7e5e9aa3a2d7eb53b18c94f0e0" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>PlayerPositionX</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1ab2a67e0311d78d5c064ce86fd5e00fb1" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>PlayerPositionY</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1abb92d60f7d5ea854ede60951e002a792" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>PlayerPositionZ</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_gameplay_data_1_1_save_game_data_1a7ca5978be8fe0b45014a984f420b9868" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::GameplayData::SaveGameData</scope><name>SaveGameData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

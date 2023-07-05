@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="dir_08913f649172db4e709f364f6d048f31" kind="dir">
+    <compoundname>/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects</compoundname>
+    <innerfile refid="_gameplay_data_8cs">GameplayData.cs</innerfile>
+    <innerfile refid="_resource_data_8cs">ResourceData.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/"/>
+  </compounddef>
+</doxygen>

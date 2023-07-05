@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os" kind="namespace" language="C#">
+    <compoundname>VirbelaHodge::Scripts::VBHOs</compoundname>
+    <innernamespace refid="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items">VirbelaHodge::Scripts::VBHOs::Items</innernamespace>
+    <innernamespace refid="namespace_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns">VirbelaHodge::Scripts::VBHOs::Pawns</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Bot.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

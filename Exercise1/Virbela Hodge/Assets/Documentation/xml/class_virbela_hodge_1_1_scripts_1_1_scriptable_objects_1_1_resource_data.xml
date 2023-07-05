@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data" kind="class" language="C#" prot="public">
+    <compoundname>VirbelaHodge::Scripts::ScriptableObjects::ResourceData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a1e519cc1f6cb39b9b96225a8093bbf24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>Dictionary&lt; string, Material &gt;</type>
+        <definition>Dictionary&lt;string, Material&gt; VirbelaHodge.Scripts.ScriptableObjects.ResourceData.MaterialDictionary</definition>
+        <argsstring></argsstring>
+        <name>MaterialDictionary</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.ResourceData.MaterialDictionary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" line="12" column="27" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a28b49114e83af3c23802b4c3e4253e92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>Dictionary&lt; string, GameObject &gt;</type>
+        <definition>Dictionary&lt;string, GameObject&gt; VirbelaHodge.Scripts.ScriptableObjects.ResourceData.PrefabDictionary</definition>
+        <argsstring></argsstring>
+        <name>PrefabDictionary</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.ResourceData.PrefabDictionary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" line="13" column="27" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a756253e7c83064d4706fc57fc3c50ae6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Color</type>
+        <definition>Color VirbelaHodge.Scripts.ScriptableObjects.ResourceData.BaseItemColor</definition>
+        <argsstring></argsstring>
+        <name>BaseItemColor</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.ResourceData.BaseItemColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" line="14" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a5bdf543f6723cbe1d379d8eee3b78a90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Color</type>
+        <definition>Color VirbelaHodge.Scripts.ScriptableObjects.ResourceData.HighlightedItemColor</definition>
+        <argsstring></argsstring>
+        <name>HighlightedItemColor</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.ResourceData.HighlightedItemColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" line="20" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" bodystart="21" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a68ef3003eb5f957396543d19805fd974" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Color</type>
+        <definition>Color VirbelaHodge.Scripts.ScriptableObjects.ResourceData.BaseBotColor</definition>
+        <argsstring></argsstring>
+        <name>BaseBotColor</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.ResourceData.BaseBotColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" line="28" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a8122241da0b45072247b996ecbd2886f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Color</type>
+        <definition>Color VirbelaHodge.Scripts.ScriptableObjects.ResourceData.HighlightedBotColor</definition>
+        <argsstring></argsstring>
+        <name>HighlightedBotColor</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.ResourceData.HighlightedBotColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" line="36" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a1ceeaabbe594e1461b3fad89dfa43777" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.ScriptableObjects.ResourceData.InitializeDictionaries</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeDictionaries</name>
+        <qualifiedname>VirbelaHodge.Scripts.ScriptableObjects.ResourceData.InitializeDictionaries</qualifiedname>
+        <briefdescription>
+<para>Populates the Dictionary data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" line="48" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" bodystart="48" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This Scriptable Object contains data that is a library of Dictionaries for various Resources/Prefabs that will be used throughout the example. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>VirbelaHodge.Scripts.ScriptableObjects.ResourceData</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1">
+        <label>VirbelaHodge.Scripts.ScriptableObjects.ResourceData</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" line="10" column="11" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/ScriptableObjects/ResourceData.cs" bodystart="11" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a68ef3003eb5f957396543d19805fd974" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::ResourceData</scope><name>BaseBotColor</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a756253e7c83064d4706fc57fc3c50ae6" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::ResourceData</scope><name>BaseItemColor</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a8122241da0b45072247b996ecbd2886f" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::ResourceData</scope><name>HighlightedBotColor</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a5bdf543f6723cbe1d379d8eee3b78a90" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::ResourceData</scope><name>HighlightedItemColor</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a1ceeaabbe594e1461b3fad89dfa43777" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::ResourceData</scope><name>InitializeDictionaries</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a1e519cc1f6cb39b9b96225a8093bbf24" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::ResourceData</scope><name>MaterialDictionary</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_scriptable_objects_1_1_resource_data_1a28b49114e83af3c23802b4c3e4253e92" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::ScriptableObjects::ResourceData</scope><name>PrefabDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

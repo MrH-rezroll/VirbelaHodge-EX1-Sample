@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kind="interface" language="C#" prot="public">
+    <compoundname>VirbelaHodge::Scripts::Contracts::IVBHObject</compoundname>
+    <derivedcompoundref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item" prot="public" virt="non-virtual">VirbelaHodge.Scripts.VBHOs.Items.Item</derivedcompoundref>
+    <derivedcompoundref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn" prot="public" virt="non-virtual">VirbelaHodge.Scripts.VBHOs.Pawns.Pawn</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1ade12daf6af1ff4e337a286803a7ec153" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Transform</type>
+        <definition>Transform VirbelaHodge.Scripts.Contracts.IVBHObject.TheTransform</definition>
+        <argsstring></argsstring>
+        <name>TheTransform</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.IVBHObject.TheTransform</qualifiedname>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1af3a024c63dd32d055aca8256a1bd2190">TheTransform</reimplementedby>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1a731561c63e870b11f66dd86c3a2b785b">TheTransform</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="19" column="26" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1af375ab204e8365e1803431e478fa9fba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Renderer</type>
+        <definition>Renderer VirbelaHodge.Scripts.Contracts.IVBHObject.TheRenderer</definition>
+        <argsstring></argsstring>
+        <name>TheRenderer</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.IVBHObject.TheRenderer</qualifiedname>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1a2ce5111f134fb872f0d44861cc95df6d">TheRenderer</reimplementedby>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1afdc180bdc86a52f0770e8cdad3369999">TheRenderer</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="20" column="25" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a4d28fb05f68cdfa0d2c1b152a62783b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject VirbelaHodge.Scripts.Contracts.IVBHObject.TheGameObject</definition>
+        <argsstring></argsstring>
+        <name>TheGameObject</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.IVBHObject.TheGameObject</qualifiedname>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1a165d56f0b4b834cc6ba02a24a5ff6028">TheGameObject</reimplementedby>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1aaaa5272721078ad1366324e3cce45ab8">TheGameObject</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="21" column="27" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a51ccd4c187b97dea50bb1878db3aa679" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>VBHORole</type>
+        <definition>VBHORole VirbelaHodge.Scripts.Contracts.IVBHObject.TheObjectRole</definition>
+        <argsstring></argsstring>
+        <name>TheObjectRole</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.IVBHObject.TheObjectRole</qualifiedname>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1aedfbe78c2b7d87aa27a642a21ade7e64">TheObjectRole</reimplementedby>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1aac0fac9e7e2f69a427ca6b830eca07f5">TheObjectRole</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="22" column="25" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a67ffd3bf239bf4261e03e1a90bd1235d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Contracts.IVBHObject.VBHOInitialize</definition>
+        <argsstring>()</argsstring>
+        <name>VBHOInitialize</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.IVBHObject.VBHOInitialize</qualifiedname>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot_1a7d4f4a521823b003e7986de49f61f41e">VBHOInitialize</reimplementedby>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1af576f3fb81091ce37687a312304f91a6">VBHOInitialize</reimplementedby>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1a40052761c25b6b27e36a00ce3ba61958">VBHOInitialize</reimplementedby>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_player_1ac69937f12061d925113382d583708794">VBHOInitialize</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="25" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1acca3fa2472ea2cac2d0cb2d0094e5895" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.Contracts.IVBHObject.VBHOUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>VBHOUpdate</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.IVBHObject.VBHOUpdate</qualifiedname>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot_1a50d95548b84647d07430995775227f70">VBHOUpdate</reimplementedby>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1ad87e0e01929927c70dbeb4afefcb9f4c">VBHOUpdate</reimplementedby>
+        <reimplementedby refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_player_1ad80a8821b6f2f09a43b9eb62f8d6fa15">VBHOUpdate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="26" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1aed529f4f97d000379fd9cd1f9fa07224" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VirbelaHodge.Scripts.Contracts.IVBHObject.OrganizeVBHObjects</definition>
+        <argsstring>(List&lt; IVBHObject &gt; vBHObjects)</argsstring>
+        <name>OrganizeVBHObjects</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.IVBHObject.OrganizeVBHObjects</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kindref="compound">IVBHObject</ref> &gt;</type>
+          <declname>vBHObjects</declname>
+        </param>
+        <briefdescription>
+<para>Method to organize VBHObjects in the scene hirearchy. It works by creating a nested empty game object structure with usefull, descriptive names. It then iterates over the supplied list and puts the objects in their appropriate places. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vBHObjects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The list of VBHObjects to be organized.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="33" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="33" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a0af360f0b8917ab5091e4315296e71b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kindref="compound">IVBHObject</ref></type>
+        <definition>static IVBHObject VirbelaHodge.Scripts.Contracts.IVBHObject.AddOneIVBHObject</definition>
+        <argsstring>(List&lt; IVBHObject &gt; vBHObjects, GameObject prefabToGenerate, int maxAmount, int rndSeed=1)</argsstring>
+        <name>AddOneIVBHObject</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.IVBHObject.AddOneIVBHObject</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kindref="compound">IVBHObject</ref> &gt;</type>
+          <declname>vBHObjects</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>prefabToGenerate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxAmount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rndSeed</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>This function conducts the specific logic of creating one new VBHO and adding it to the list of VBHO&apos;s. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vBHObjects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The list of VBHOs that we want to add one to.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prefabToGenerate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The prefab of a VBHO that we want to add</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxAmount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum amount of this type of VBHO in the scene, this is used to determine the random range max value for placing VBHOs randomly.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rndSeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The seed value for this type of VBHO</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IVBHObject - The VBHO that has been created, randomly placed and put in the list of VBHOs</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="63" column="27" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="63" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a87f3f1a9cbc813dc0de6e52610005060" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kindref="compound">IVBHObject</ref></type>
+        <definition>static IVBHObject VirbelaHodge.Scripts.Contracts.IVBHObject.RemoveOneIVBHObject</definition>
+        <argsstring>(List&lt; IVBHObject &gt; vBHObjects, VBHORole vBHORoleToRemove)</argsstring>
+        <name>RemoveOneIVBHObject</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.IVBHObject.RemoveOneIVBHObject</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kindref="compound">IVBHObject</ref> &gt;</type>
+          <declname>vBHObjects</declname>
+        </param>
+        <param>
+          <type>VBHORole</type>
+          <declname>vBHORoleToRemove</declname>
+        </param>
+        <briefdescription>
+<para>This method will remove a VBHO from a supplied list of VBHOs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vBHObjects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The List of VBHOs to remove an item from.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vBHORoleToRemove</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The role of the item to remove.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IVBHObject - A reference to the VBHO that was removed from the list, to be used by the function that wanted it removed. (usually to Destroy it)</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="86" column="27" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="86" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1af06725997d3576d34b532e7ab642952a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VirbelaHodge.Scripts.Contracts.IVBHObject.GenerateIVBHObjects</definition>
+        <argsstring>(List&lt; IVBHObject &gt; vBHObjects, GameObject prefabToGenerate, int maxAmount, int rndSeed=1)</argsstring>
+        <name>GenerateIVBHObjects</name>
+        <qualifiedname>VirbelaHodge.Scripts.Contracts.IVBHObject.GenerateIVBHObjects</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" kindref="compound">IVBHObject</ref> &gt;</type>
+          <declname>vBHObjects</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>prefabToGenerate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxAmount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rndSeed</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Generates and randomly places a specified number of VBHObjects of a specified type. This generator accounts for any VBHOs manually placed within the scene and will only generate the difference between the number of VBHOs of the specified type that exist, and the max amount that can exist. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vBHObjects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The list of VBHObjects that will be added to.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prefabToGenerate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The prefab of the type of VBHO to generate.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxAmount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The total amount of the specified type that should exist.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rndSeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The random seed value for this type of VBHO.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="109" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="109" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This Interface is a Contract that forces all implementing classes to be &quot;Virbela Hodge Objects&quot; (vBHObjects, vBHOs). All objects implementing this interface are usable within the business logic of this example. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>VirbelaHodge.Scripts.Contracts.IVBHObject</label>
+        <link refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object"/>
+      </node>
+      <node id="2">
+        <label>VirbelaHodge.Scripts.VBHOs.Items.Item</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>VirbelaHodge.Scripts.VBHOs.Pawns.Bot</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>VirbelaHodge.Scripts.VBHOs.Pawns.Pawn</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>VirbelaHodge.Scripts.VBHOs.Pawns.Player</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_player"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" line="15" column="22" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/Contracts/IVBHObject.cs" bodystart="16" bodyend="132"/>
+    <listofallmembers>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a0af360f0b8917ab5091e4315296e71b8" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Contracts::IVBHObject</scope><name>AddOneIVBHObject</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1af06725997d3576d34b532e7ab642952a" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Contracts::IVBHObject</scope><name>GenerateIVBHObjects</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1aed529f4f97d000379fd9cd1f9fa07224" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Contracts::IVBHObject</scope><name>OrganizeVBHObjects</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a87f3f1a9cbc813dc0de6e52610005060" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Contracts::IVBHObject</scope><name>RemoveOneIVBHObject</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a4d28fb05f68cdfa0d2c1b152a62783b0" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Contracts::IVBHObject</scope><name>TheGameObject</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a51ccd4c187b97dea50bb1878db3aa679" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Contracts::IVBHObject</scope><name>TheObjectRole</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1af375ab204e8365e1803431e478fa9fba" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Contracts::IVBHObject</scope><name>TheRenderer</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1ade12daf6af1ff4e337a286803a7ec153" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Contracts::IVBHObject</scope><name>TheTransform</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a67ffd3bf239bf4261e03e1a90bd1235d" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Contracts::IVBHObject</scope><name>VBHOInitialize</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1acca3fa2472ea2cac2d0cb2d0094e5895" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::Contracts::IVBHObject</scope><name>VBHOUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

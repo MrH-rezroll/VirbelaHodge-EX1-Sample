@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot" kind="class" language="C#" prot="public">
+    <compoundname>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</compoundname>
+    <basecompoundref refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn" prot="public" virt="non-virtual">VirbelaHodge.Scripts.VBHOs.Pawns.Pawn</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot_1a7d4f4a521823b003e7986de49f61f41e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void VirbelaHodge.Scripts.VBHOs.Pawns.Bot.VBHOInitialize</definition>
+        <argsstring>()</argsstring>
+        <name>VBHOInitialize</name>
+        <qualifiedname>VirbelaHodge.Scripts.VBHOs.Pawns.Bot.VBHOInitialize</qualifiedname>
+        <reimplements refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1a40052761c25b6b27e36a00ce3ba61958">VBHOInitialize</reimplements>
+        <briefdescription>
+<para>Initialize the Pawn base class values and then any specific to a Bot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Bot.cs" line="12" column="30" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Bot.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot_1a50d95548b84647d07430995775227f70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void VirbelaHodge.Scripts.VBHOs.Pawns.Bot.VBHOUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>VBHOUpdate</name>
+        <qualifiedname>VirbelaHodge.Scripts.VBHOs.Pawns.Bot.VBHOUpdate</qualifiedname>
+        <reimplements refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1ad87e0e01929927c70dbeb4afefcb9f4c">VBHOUpdate</reimplements>
+        <briefdescription>
+<para>Run Update loop logic on the Pawn base class, and then any Update logic specific to a Bot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Bot.cs" line="21" column="30" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Bot.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The concrete implemenation of a Pawn that represents a &quot;Bot&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IVBHObject</label>
+        <link refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object"/>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Pawn</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>VirbelaHodge.Scripts.VBHOs.Pawns.Bot</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IVBHObject</label>
+        <link refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object"/>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>Pawn</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>VirbelaHodge.Scripts.VBHOs.Pawns.Bot</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Bot.cs" line="7" column="11" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Bot.cs" bodystart="8" bodyend="25"/>
+    <listofallmembers>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a0af360f0b8917ab5091e4315296e71b8" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>AddOneIVBHObject</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1af06725997d3576d34b532e7ab642952a" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>GenerateIVBHObjects</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1aed529f4f97d000379fd9cd1f9fa07224" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>OrganizeVBHObjects</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1a2f851f8294eb0a9cb705d7a5f690ba7f" prot="protected" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>pawnRenderer</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1a725ff7f49c0ae36d1dfe71cca0fa14be" prot="protected" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>pawnTransform</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a87f3f1a9cbc813dc0de6e52610005060" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>RemoveOneIVBHObject</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1aaaa5272721078ad1366324e3cce45ab8" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>TheGameObject</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1a4deec35044787d7d20d48a3b122eda3f" prot="protected" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>theGameObject</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1aac0fac9e7e2f69a427ca6b830eca07f5" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>TheObjectRole</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1afdc180bdc86a52f0770e8cdad3369999" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>TheRenderer</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_pawn_1a731561c63e870b11f66dd86c3a2b785b" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>TheTransform</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot_1a7d4f4a521823b003e7986de49f61f41e" prot="public" virt="virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>VBHOInitialize</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_pawns_1_1_bot_1a50d95548b84647d07430995775227f70" prot="public" virt="virtual"><scope>VirbelaHodge::Scripts::VBHOs::Pawns::Bot</scope><name>VBHOUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

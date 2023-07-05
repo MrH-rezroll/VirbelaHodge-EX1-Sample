@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item" kind="class" language="C#" prot="public">
+    <compoundname>VirbelaHodge::Scripts::VBHOs::Items::Item</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object" prot="public" virt="non-virtual">VirbelaHodge.Scripts.Contracts.IVBHObject</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1af3a024c63dd32d055aca8256a1bd2190" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Transform</type>
+        <definition>Transform VirbelaHodge.Scripts.VBHOs.Items.Item.TheTransform</definition>
+        <argsstring></argsstring>
+        <name>TheTransform</name>
+        <qualifiedname>VirbelaHodge.Scripts.VBHOs.Items.Item.TheTransform</qualifiedname>
+        <reimplements refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1ade12daf6af1ff4e337a286803a7ec153">TheTransform</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" line="12" column="26" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1a2ce5111f134fb872f0d44861cc95df6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Renderer</type>
+        <definition>Renderer VirbelaHodge.Scripts.VBHOs.Items.Item.TheRenderer</definition>
+        <argsstring></argsstring>
+        <name>TheRenderer</name>
+        <qualifiedname>VirbelaHodge.Scripts.VBHOs.Items.Item.TheRenderer</qualifiedname>
+        <reimplements refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1af375ab204e8365e1803431e478fa9fba">TheRenderer</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" line="13" column="25" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1a165d56f0b4b834cc6ba02a24a5ff6028" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject VirbelaHodge.Scripts.VBHOs.Items.Item.TheGameObject</definition>
+        <argsstring></argsstring>
+        <name>TheGameObject</name>
+        <qualifiedname>VirbelaHodge.Scripts.VBHOs.Items.Item.TheGameObject</qualifiedname>
+        <reimplements refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a4d28fb05f68cdfa0d2c1b152a62783b0">TheGameObject</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" line="14" column="27" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1aedfbe78c2b7d87aa27a642a21ade7e64" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>VBHORole</type>
+        <definition>VBHORole VirbelaHodge.Scripts.VBHOs.Items.Item.TheObjectRole</definition>
+        <argsstring></argsstring>
+        <name>TheObjectRole</name>
+        <qualifiedname>VirbelaHodge.Scripts.VBHOs.Items.Item.TheObjectRole</qualifiedname>
+        <reimplements refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a51ccd4c187b97dea50bb1878db3aa679">TheObjectRole</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" line="15" column="25" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1af576f3fb81091ce37687a312304f91a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VirbelaHodge.Scripts.VBHOs.Items.Item.VBHOInitialize</definition>
+        <argsstring>()</argsstring>
+        <name>VBHOInitialize</name>
+        <qualifiedname>VirbelaHodge.Scripts.VBHOs.Items.Item.VBHOInitialize</qualifiedname>
+        <reimplements refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a67ffd3bf239bf4261e03e1a90bd1235d">VBHOInitialize</reimplements>
+        <briefdescription>
+<para>Initialize required values for an Item. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" line="20" column="21" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" bodystart="20" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An Item is a non player or ai controlled VBHObject that is interactable. It does not specifiy a VBHOUpdate method because it is defaulted in the contract and an Item does not (yet) make use of it. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IVBHObject</label>
+        <link refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>VirbelaHodge.Scripts.VBHOs.Items.Item</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IVBHObject</label>
+        <link refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>VirbelaHodge.Scripts.VBHOs.Items.Item</label>
+        <link refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" line="10" column="11" bodyfile="/Users/matthewhodge/Documents/Virbela/virbelacodingtest/Exercise1/Virbela Hodge/Assets/Scripts/MonoBehaviours/Item.cs" bodystart="11" bodyend="27"/>
+    <listofallmembers>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a0af360f0b8917ab5091e4315296e71b8" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Items::Item</scope><name>AddOneIVBHObject</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1af06725997d3576d34b532e7ab642952a" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Items::Item</scope><name>GenerateIVBHObjects</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1aed529f4f97d000379fd9cd1f9fa07224" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Items::Item</scope><name>OrganizeVBHObjects</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1a87f3f1a9cbc813dc0de6e52610005060" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Items::Item</scope><name>RemoveOneIVBHObject</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1a165d56f0b4b834cc6ba02a24a5ff6028" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Items::Item</scope><name>TheGameObject</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1aedfbe78c2b7d87aa27a642a21ade7e64" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Items::Item</scope><name>TheObjectRole</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1a2ce5111f134fb872f0d44861cc95df6d" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Items::Item</scope><name>TheRenderer</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1af3a024c63dd32d055aca8256a1bd2190" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Items::Item</scope><name>TheTransform</name></member>
+      <member refid="class_virbela_hodge_1_1_scripts_1_1_v_b_h_os_1_1_items_1_1_item_1af576f3fb81091ce37687a312304f91a6" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Items::Item</scope><name>VBHOInitialize</name></member>
+      <member refid="interface_virbela_hodge_1_1_scripts_1_1_contracts_1_1_i_v_b_h_object_1acca3fa2472ea2cac2d0cb2d0094e5895" prot="public" virt="non-virtual"><scope>VirbelaHodge::Scripts::VBHOs::Items::Item</scope><name>VBHOUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
