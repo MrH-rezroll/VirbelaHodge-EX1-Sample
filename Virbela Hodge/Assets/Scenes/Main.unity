@@ -754,13 +754,13 @@ MonoBehaviour:
     accurate on load, put no items/bots in the scene and place them while playing.
   baseItemColor: {r: 1, g: 0.8726415, b: 0.87366045, a: 0}
   highlightedItemColor: {r: 1, g: 0, b: 0, a: 0}
-  loadPreviousItems: 1
-  itemAmount: 5
+  loadPreviousItems: 0
+  itemAmount: 0
   itemGeneratorSeed: 1
   baseBotColor: {r: 0.8021093, g: 0.83203673, b: 0.9716981, a: 0}
   highlightedBotColor: {r: 0, g: 0.17614985, b: 1, a: 0}
-  loadPreviousBots: 1
-  botAmount: 5
+  loadPreviousBots: 0
+  botAmount: 0
   botGeneratorSeed: 1
 --- !u!4 &1169079658
 Transform:
@@ -850,6 +850,10 @@ PrefabInstance:
       value: Bot (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3290240082223039395, guid: 534d2b0be4b81433fba62dfc3c1a9701, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3290240082223039395, guid: 534d2b0be4b81433fba62dfc3c1a9701, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7927e4eff712e4ce08c14ff19a4ef6c4, type: 2}
@@ -867,7 +871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3290240082223039405, guid: 534d2b0be4b81433fba62dfc3c1a9701, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.85
+      value: 5.11
       objectReference: {fileID: 0}
     - target: {fileID: 3290240082223039405, guid: 534d2b0be4b81433fba62dfc3c1a9701, type: 3}
       propertyPath: m_LocalRotation.w

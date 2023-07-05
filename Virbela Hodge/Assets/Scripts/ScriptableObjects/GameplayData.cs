@@ -56,33 +56,54 @@ namespace VirbelaHodge.Scripts.ScriptableObjects
                 PlayerPosition = new Vector3(saveGameData.PlayerPositionX, saveGameData.PlayerPositionY, saveGameData.PlayerPositionZ);
                 if (loadPreviousItems)
                 {
-                    GameControl.Instance.ItemAmount = saveGameData.ItemCount;
-                    GameControl.Instance.GenerateItems();
-                    int itemIndex = 0;
+                    int preExistingItemCount = 0;
                     foreach (IVBHObject vBHO in GameControl.Instance.VBHObjects)
-                    {
                         if (vBHO.TheObjectRole == VBHORole.Item)
+                            preExistingItemCount++;
+                    if (preExistingItemCount > saveGameData.ItemCount)
+                        GameControl.Instance.ItemAmount = preExistingItemCount;
+                    else
+                        GameControl.Instance.ItemAmount = saveGameData.ItemCount;
+                    if (GameControl.Instance.ItemAmount > 0)
+                    {
+                        GameControl.Instance.GenerateItems();
+                        int itemIndex = 0;
+                        foreach (IVBHObject vBHO in GameControl.Instance.VBHObjects)
                         {
-                            if (saveGameData.ItemPositionsX != null && itemIndex < saveGameData.ItemPositionsX.Count) {
-                                vBHO.TheTransform.position = new(saveGameData.ItemPositionsX[itemIndex], saveGameData.ItemPositionsY[itemIndex], saveGameData.ItemPositionsZ[itemIndex]);
-                                itemIndex++;
+                            if (vBHO.TheObjectRole == VBHORole.Item)
+                            {
+                                if (saveGameData.ItemPositionsX != null && itemIndex < saveGameData.ItemPositionsX.Count)
+                                {
+                                    vBHO.TheTransform.position = new(saveGameData.ItemPositionsX[itemIndex], saveGameData.ItemPositionsY[itemIndex], saveGameData.ItemPositionsZ[itemIndex]);
+                                    itemIndex++;
+                                }
                             }
                         }
                     }
                 }
                 if (loadPreviousBots)
                 {
-                    GameControl.Instance.BotAmount = saveGameData.BotCount;
-                    GameControl.Instance.GenerateBots();
-                    int botIndex = 0;
+                    int preExistingBotCount = 0;
                     foreach (IVBHObject vBHO in GameControl.Instance.VBHObjects)
-                    {
                         if (vBHO.TheObjectRole == VBHORole.Bot)
+                            preExistingBotCount++;
+                    if (preExistingBotCount > saveGameData.BotCount)
+                        GameControl.Instance.BotAmount = preExistingBotCount;
+                    else
+                        GameControl.Instance.BotAmount = saveGameData.BotCount;
+                    if(GameControl.Instance.BotAmount > 0)
+                    {
+                        GameControl.Instance.GenerateBots();
+                        int botIndex = 0;
+                        foreach (IVBHObject vBHO in GameControl.Instance.VBHObjects)
                         {
-                            if (saveGameData.BotPositionsX != null && botIndex < saveGameData.BotPositionsX.Count)
+                            if (vBHO.TheObjectRole == VBHORole.Bot)
                             {
-                                vBHO.TheTransform.position = new(saveGameData.BotPositionsX[botIndex], saveGameData.BotPositionsY[botIndex], saveGameData.BotPositionsZ[botIndex]);
-                                botIndex++;
+                                if (saveGameData.BotPositionsX != null && botIndex < saveGameData.BotPositionsX.Count)
+                                {
+                                    vBHO.TheTransform.position = new(saveGameData.BotPositionsX[botIndex], saveGameData.BotPositionsY[botIndex], saveGameData.BotPositionsZ[botIndex]);
+                                    botIndex++;
+                                }
                             }
                         }
                     }

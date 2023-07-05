@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{3A45AB67-F8EA-5BE2-6B0E-6D7C5EB30ABE}|">
-  <MonoDevelop.Ide.ItemProperties.ScriptsAssembly PreferredExecutionTarget="48a357c5-8086-460f-a5ed-b9a555a6b334" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScriptableObjects/GameplayData.cs">
+  <MonoDevelop.Ide.ItemProperties.ScriptsAssembly PreferredExecutionTarget="cc0b304b-5663-4dee-a48c-a61d74e17c76" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Contracts/IVBHObject.cs">
     <Files>
       <File FileName="Assets/Scripts/MonoBehaviours/Pawn.cs" Line="37" Column="93" />
-      <File FileName="Assets/Scripts/MonoBehaviours/Player.cs" Line="20" Column="54" />
+      <File FileName="Assets/Scripts/MonoBehaviours/Player.cs" />
       <File FileName="Assets/Scripts/MonoBehaviours/Item.cs" Line="14" Column="54" />
       <File FileName="Assets/Scripts/MonoBehaviours/Bot.cs" Line="15" Column="52" />
-      <File FileName="Assets/Scripts/Contracts/IVBHObject.cs" Line="15" Column="12" />
-      <File FileName="Assets/Scripts/ScriptableObjects/ResourceData.cs" Line="43" Column="10" />
-      <File FileName="Assets/Editor/UnitTests/ItemTests.cs" Line="54" Column="6" />
-      <File FileName="Assets/Editor/UnitTests/GameControlTests.cs" Line="62" Column="62" />
-      <File FileName="Assets/Scripts/MonoBehaviours/GameControl.cs" Line="107" Column="29" />
-      <File FileName="Assets/Scripts/ScriptableObjects/GameplayData.cs" Line="40" Column="1" />
+      <File FileName="Assets/Scripts/Contracts/IVBHObject.cs" Line="65" Column="36" />
+      <File FileName="Assets/Scripts/ScriptableObjects/ResourceData.cs" />
+      <File FileName="Assets/Scripts/MonoBehaviours/GameControl.cs" Line="186" Column="22" />
+      <File FileName="Assets/Scripts/ScriptableObjects/GameplayData.cs" Line="81" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,11 +20,11 @@
                 <Node name="UnitTests" expanded="True" />
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="Contracts" expanded="True" />
-                <Node name="MonoBehaviours" expanded="True" />
-                <Node name="ScriptableObjects" expanded="True">
-                  <Node name="GameplayData.cs" selected="True" />
+                <Node name="Contracts" expanded="True">
+                  <Node name="IVBHObject.cs" selected="True" />
                 </Node>
+                <Node name="MonoBehaviours" expanded="True" />
+                <Node name="ScriptableObjects" expanded="True" />
               </Node>
             </Node>
           </Node>

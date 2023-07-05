@@ -115,9 +115,9 @@ namespace VirbelaHodge.Scripts.Control
         {
             if (gameplayData.LoadGameplayDataFromFile(loadPreviousItems, loadPreviousBots))
                 player.TheTransform.position = gameplayData.PlayerPosition;
-            if(!loadPreviousItems)
+            if(!loadPreviousItems && itemAmount > 0)
                 GenerateItems();
-            if(!loadPreviousBots)
+            if(!loadPreviousBots && botAmount > 0)
                 GenerateBots();
             IVBHObject.OrganizeVBHObjects(vBHObjects);
             SetGameState(1);
@@ -230,13 +230,16 @@ namespace VirbelaHodge.Scripts.Control
         /// </summary>
         private void RemoveLastItem()
         {
-            itemAmount--;
-            canManipulateVBHObjectCount = false;
-            IVBHObject vBHOToDestroy = IVBHObject.RemoveOneIVBHObject(vBHObjects, VBHORole.Item);
-            if (vBHOToDestroy != null) Destroy(vBHOToDestroy.TheGameObject);
-            // Final cleanup is done in a couroutine because the Destroy call won't actually execute until the end of the frame.
-            // We need to delay cleanup in the vBHObjects list until we know the Object has been destroyed.
-            StartCoroutine(CleanUpUnusedVBHOs());
+            if (itemAmount > 0)
+            {
+                itemAmount--;
+                canManipulateVBHObjectCount = false;
+                IVBHObject vBHOToDestroy = IVBHObject.RemoveOneIVBHObject(vBHObjects, VBHORole.Item);
+                if (vBHOToDestroy != null) Destroy(vBHOToDestroy.TheGameObject);
+                // Final cleanup is done in a couroutine because the Destroy call won't actually execute until the end of the frame.
+                // We need to delay cleanup in the vBHObjects list until we know the Object has been destroyed.
+                StartCoroutine(CleanUpUnusedVBHOs());
+            }
         }
 
         /// <summary>
@@ -244,13 +247,16 @@ namespace VirbelaHodge.Scripts.Control
         /// </summary>
         private void RemoveLastBot()
         {
-            botAmount--;
-            canManipulateVBHObjectCount = false;
-            IVBHObject vBHOToDestroy = IVBHObject.RemoveOneIVBHObject(vBHObjects, VBHORole.Bot);
-            if (vBHOToDestroy != null) Destroy(vBHOToDestroy.TheGameObject);
-            // Final cleanup is done in a couroutine because the Destroy call won't actually execute until the end of the frame.
-            // We need to delay cleanup in the vBHObjects list until we know the Object has been destroyed.
-            StartCoroutine(CleanUpUnusedVBHOs());
+            if (botAmount > 0)
+            {
+                botAmount--;
+                canManipulateVBHObjectCount = false;
+                IVBHObject vBHOToDestroy = IVBHObject.RemoveOneIVBHObject(vBHObjects, VBHORole.Bot);
+                if (vBHOToDestroy != null) Destroy(vBHOToDestroy.TheGameObject);
+                // Final cleanup is done in a couroutine because the Destroy call won't actually execute until the end of the frame.
+                // We need to delay cleanup in the vBHObjects list until we know the Object has been destroyed.
+                StartCoroutine(CleanUpUnusedVBHOs());
+            }
         }
 
         #endregion

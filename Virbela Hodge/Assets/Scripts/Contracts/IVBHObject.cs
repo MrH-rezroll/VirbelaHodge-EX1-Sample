@@ -62,11 +62,13 @@ namespace VirbelaHodge.Scripts.Contracts
         /// <returns>IVBHObject - The VBHO that has been created, randomly placed and put in the list of VBHOs</returns>
         static IVBHObject AddOneIVBHObject(List<IVBHObject> vBHObjects, GameObject prefabToGenerate, int maxAmount, int rndSeed = 1)
         {
+            if (maxAmount < 5) // Ensure we have enough of a random range to pull unique values and not got stuck in a while loop.
+                maxAmount = 5;
             Random.InitState(rndSeed);
             List<Vector3> vBHOLocations = new List<Vector3>();
             foreach (IVBHObject iVBHO in vBHObjects) vBHOLocations.Add(iVBHO.TheTransform.position);
             Vector3 randomLocation = new Vector3(Random.Range(1, maxAmount), 0, Random.Range(1, maxAmount));
-            while (vBHOLocations.Contains(randomLocation))
+            while (vBHOLocations.Contains(randomLocation)) // ensure we do not get an existing location.
                 randomLocation = new Vector3(Random.Range(1, maxAmount), 0, Random.Range(1, maxAmount));
             vBHOLocations.Add(randomLocation);
             IVBHObject thisItem = Object.Instantiate(prefabToGenerate).GetComponent<MonoBehaviour>() as IVBHObject;
@@ -120,7 +122,7 @@ namespace VirbelaHodge.Scripts.Contracts
             for (int i = 0; i < maxAmount - preExistingPrefabToGenerateCount; i++)
             {
                 Vector3 randomLocation = new(Random.Range(1, maxAmount), 0, Random.Range(1, maxAmount));
-                while (vBHOLocations.Contains(randomLocation))
+                while (vBHOLocations.Contains(randomLocation)) // ensure we don't get a same random location.
                     randomLocation = new Vector3(Random.Range(1, maxAmount), 0, Random.Range(1, maxAmount));
                 vBHOLocations.Add(randomLocation);
                 IVBHObject thisItem = Object.Instantiate(prefabToGenerate).GetComponent<MonoBehaviour>() as IVBHObject;

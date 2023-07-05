@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{3A45AB67-F8EA-5BE2-6B0E-6D7C5EB30ABE}|">
+  <MonoDevelop.Ide.ItemProperties.ScriptsAssembly PreferredExecutionTarget="48a357c5-8086-460f-a5ed-b9a555a6b334" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonoBehaviours/GameControl.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MonoBehaviours/Pawn.cs" Line="37" Column="93" />
+      <File FileName="Assets/Scripts/MonoBehaviours/Player.cs" Line="20" Column="54" />
+      <File FileName="Assets/Scripts/MonoBehaviours/Item.cs" Line="14" Column="54" />
+      <File FileName="Assets/Scripts/MonoBehaviours/Bot.cs" Line="15" Column="52" />
+      <File FileName="Assets/Scripts/Contracts/IVBHObject.cs" Line="15" Column="12" />
+      <File FileName="Assets/Scripts/ScriptableObjects/ResourceData.cs" Line="43" Column="10" />
+      <File FileName="Assets/Editor/UnitTests/ItemTests.cs" Line="54" Column="6" />
+      <File FileName="Assets/Editor/UnitTests/GameControlTests.cs" Line="62" Column="62" />
+      <File FileName="Assets/Scripts/MonoBehaviours/GameControl.cs" Line="230" Column="23" />
+      <File FileName="Assets/Scripts/ScriptableObjects/GameplayData.cs" Line="81" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Virbela Hodge" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Editor" expanded="True">
+                <Node name="UnitTests" expanded="True" />
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Contracts" expanded="True" />
+                <Node name="MonoBehaviours" expanded="True">
+                  <Node name="GameControl.cs" selected="True" />
+                </Node>
+                <Node name="ScriptableObjects" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="48a357c5-8086-460f-a5ed-b9a555a6b334" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
