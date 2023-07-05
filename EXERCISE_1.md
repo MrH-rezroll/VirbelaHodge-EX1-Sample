@@ -2,9 +2,9 @@
 
 ## How can your implementation be optimized? ##
 
-My method to search for the nearest item and/or bot is a simple bubble sort. There are other sorts that could make this more optimal, but I felt the real solution was to implement a data structure such as a KD-Tree to store items/bots. While I understand the idea behind how a KD-Tree organizes data, and how that would make the search more efficient when starting to hit an item/bot count in the thousands, I haven’t written one out before. 
+My method to search for the nearest item and/or bot is a simple iteration over the List of transforms looking for the shortest distance. There are other approaches that could make this more optimal, but I felt the real solution was to implement a data structure such as a KD-Tree to store items/bots. While I understand the idea behind how a KD-Tree organizes data, and how that would make the search more efficient when starting to hit an item/bot count in the thousands, I haven’t written one out before. 
 
-I decided to stick with the bubble sort because it works well enough for up to a couple hundred bots/items, and I could focus the rest of my time on ensuring I did everything else that was asked. If I was to implement a KD-Tree, I would have spent my whole time making that. Alternatively I could have implemented one I found that uses an MIT license; however, that wouldn’t be my code and I don’t want to run afoul of this exercise. Given more time, I think writing a proper KD-Tree to store my items/bots instead of a List is where I would focus to improve performance when scaling to large quantities.
+I decided to stick with simple distance search because it works well enough for up to a couple hundred bots/items, and I could focus the rest of my time on ensuring I did everything else that was asked. If I was to implement a KD-Tree, I would have spent my whole time making that. Alternatively I could have implemented one I found that uses an MIT license; however, that wouldn’t be my code and I don’t want to run afoul of this exercise. Given more time, I think writing a proper KD-Tree to store my items/bots instead of a List is where I would focus to improve performance when scaling to large quantities.
 
 ## How much time did you spend on your implementation? ##
 
