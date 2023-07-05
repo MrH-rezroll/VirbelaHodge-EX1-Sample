@@ -1,3 +1,11 @@
+# Pre-deadline Note #
+
+Between now and end of day July 5th, I'll likely be making small commits. I do see opportunities to bring this more inline with SOLID practices in the area of having single purpose functions/classes. For example, my GameplayData SO is also doing saving/loading. Those are two related things, but they're also different purposed things.
+
+I'm thinking to make GameplayData just the record keeping and have a separate SO for for Saving/Loading. Additionally, I see where in some areas I'm passing my list of vBHObjects to fuctions, but this could also be directly accessed from the GameControl, since it is a Singleton. I'd like to be consistent in how I'm accessing my vBHObject List.
+
+Finally, I feel like the terms IVBHObject, VBHObject and VBHO are refering to the same thing, but used inconsistently. I'll likely refactor to use each name with consistency. I_VBHObject for the actual interface, VBHObject for class instances implementing the contract, and VBHO for shorthand in elements such as a foreach.
+
 # Question Answers #
 
 ## How can your implementation be optimized? ##
