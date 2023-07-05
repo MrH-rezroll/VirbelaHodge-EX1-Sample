@@ -1,3 +1,25 @@
+# Question Answers #
+
+## How can your implementation be optimized? ##
+
+My method to search for the nearest item and/or bot is a simple bubble sort. There are other sorts that could make this more optimal, but I felt the real solution was to implement a data structure such as a KD-Tree to store items/bots. While I understand the idea behind how a KD-Tree organizes data, and how that would make the search more efficient when starting to hit an item/bot count in the thousands, I haven’t written one out before. 
+
+I decided to stick with the bubble sort because it works well enough for up to a couple hundred bots/items, and I could focus the rest of my time on ensuring I did everything else that was asked. If I was to implement a KD-Tree, I would have spent my whole time making that. Alternatively I could have implemented one I found that uses an MIT license; however, that wouldn’t be my code I don’t want to run afoul of this exercise. Given more time, I think writing a proper KD-Tree to store my items/bots instead of a List is where I would focus to improve performance when scaling to large quantities.
+
+## How much time did you spend on your implementation? ##
+
+In total, I set aside about 16 hours for this. The breakdown of that is around 8 hours of programming, 5 hours of researching/refactoring/contemplating existence, and another 3 hours lost to pictures of cats.
+
+## What was most challenging for you? ##
+
+Honestly, second guessing myself was a challenge. In an effort to show everything I know about separation of concerns, designing with patterns, using contracts (interfaces), and generally demonstrating solid Comp Sci skills, I worried I’d over engineered it. That may be the case for how simple the functionality of this exercise is; however, I stand by my structure because I feel it would scale well if it were to become something more. That is, I feel confident I have an easy path to add more functionality, to troubleshoot, and to generally reuse the most code with the least amount of spaghetti code.
+
+## What else would you add to this exercise? ##
+
+It was pretty good as it is. I see where an individual could solve this a myriad of different ways. If I were to add anything to it, it would be a goal. Give the play/user some obstacle to overcome and/or accomplishment to achieve. Make it feel like a real gameplay, or at least interaction loop.
+
+—- Original Instructions —-
+
 # Exercise 1 #
 
 In this exercise you'll configure a Unity scene and write scripts to create an interactive experience. As you progress through the steps, feel free to add comments to the code about *why* you choose to do things a certain way. Add comments if you felt like there's a better, but more time intensive way to implement specific functionality. It's OK to be more verbose in your comments than typical, to give us a better idea of your thoughts when writing the code.
