@@ -8,11 +8,15 @@ Finally, I feel like the terms IVBHObject, VBHObject and VBHO are refering to th
 
 # Question Answers #
 
-## How can your implementation be optimized? ##
+## How can your implementation be optimized? *Updated July 5th 9:23AM PST ##
 
 My method to search for the nearest item and/or bot is a simple iteration over the List of transforms looking for the shortest distance. There are other approaches that could make this more optimal, but I felt the real solution was to implement a data structure such as a KD-Tree to store items/bots. While I understand the idea behind how a KD-Tree organizes data, and how that would make the search more efficient when starting to hit an item/bot count in the thousands, I haven’t written one out before. 
 
 I decided to stick with simple distance search because it works well enough for up to a couple hundred bots/items, and I could focus the rest of my time on ensuring I did everything else that was asked. If I was to implement a KD-Tree, I would have spent my whole time making that. Alternatively I could have implemented one I found that uses an MIT license; however, that wouldn’t be my code and I don’t want to run afoul of this exercise. Given more time, I think writing a proper KD-Tree to store my items/bots instead of a List is where I would focus to improve performance when scaling to large quantities.
+
+Another area that could improve performance would be to make use of object pooling. As it is, clicking buttons to add/remove items/bots instantiates new ones and destroys removed ones during runtime. Instantiation/Destruction can be costly if it's happening too much. My usual approach is to avoid it all together by preloading the amount I may need (or just a really high amount that is still performant) and then simply disable and remove off screen the ones that are not in use. Adding one would enable and place one that isn't in use, and removing one disables and removes one that is in use. I would only instantiate a new one if the user happened to have used up the pool; so, increase the pool by one if we happen to go past the preloaded amount.
+
+As I don't have context for how this functionality might be use, it didn't seem all that important when compared to ensuring everything got done functionally; however, if this was a feature going into a product used by the target users and not a tool for designers to place objects I would step up the priority on implementing object pooling over how it currently works.
 
 ## How much time did you spend on your implementation? ##
 
