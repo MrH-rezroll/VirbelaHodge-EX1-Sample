@@ -18,7 +18,7 @@ namespace VirbelaHodge.Scripts.ScriptableObjects
         /// <summary>
         /// Opens a file stream for writing SaveGameData to a file
         /// </summary>
-        public void SaveGameplayDataToFile(int itemCount, int botCount, List<IVBHObject> vBHOs)
+        public void SaveGameplayDataToFile()
         {
             string filePath = Application.persistentDataPath + "/gameplayData.dat";
             FileStream file;
@@ -32,7 +32,7 @@ namespace VirbelaHodge.Scripts.ScriptableObjects
                 file = File.Create(filePath);
             }
 
-            SaveGameData saveGameData = new(PlayerPosition, itemCount, botCount, vBHOs);
+            SaveGameData saveGameData = new(PlayerPosition);
             BinaryFormatter binaryFormatter = new();
             binaryFormatter.Serialize(file, saveGameData);
             file.Close();
@@ -43,7 +43,7 @@ namespace VirbelaHodge.Scripts.ScriptableObjects
         /// that populates the GameplayData fields.
         /// </summary>
         /// <returns>bool - true if save data was read, false if not (typically meaning save data didn't exist).</returns>
-        public bool LoadGameplayDataFromFile(bool loadPreviousItems, bool loadPreviousBots)
+        public bool LoadGameplayDataFromFile()
         {
             string filePath = Application.persistentDataPath + "/gameplayData.dat";
             FileStream file;
@@ -54,12 +54,9 @@ namespace VirbelaHodge.Scripts.ScriptableObjects
                 SaveGameData saveGameData = (SaveGameData)binaryFormatter.Deserialize(file);
                 file.Close();
                 PlayerPosition = new Vector3(saveGameData.PlayerPositionX, saveGameData.PlayerPositionY, saveGameData.PlayerPositionZ);
-                if (loadPreviousItems)
+                if (GameControl.Instance.LoadPreviousItems)
                 {
-                    int preExistingItemCount = 0;
-                    foreach (IVBHObject vBHO in GameControl.Instance.VBHObjects)
-                        if (vBHO.TheObjectRole == VBHORole.Item)
-                            preExistingItemCount++;
+                    int preExistingItemCount = GameControl.Instance.GetVBHOExistingRoleCount(VBHORole.Item);
                     if (preExistingItemCount > saveGameData.ItemCount)
                         GameControl.Instance.ItemAmount = preExistingItemCount;
                     else
@@ -81,12 +78,9 @@ namespace VirbelaHodge.Scripts.ScriptableObjects
                         }
                     }
                 }
-                if (loadPreviousBots)
+                if (GameControl.Instance.LoadPreviousBots)
                 {
-                    int preExistingBotCount = 0;
-                    foreach (IVBHObject vBHO in GameControl.Instance.VBHObjects)
-                        if (vBHO.TheObjectRole == VBHORole.Bot)
-                            preExistingBotCount++;
+                    int preExistingBotCount = GameControl.Instance.GetVBHOExistingRoleCount(VBHORole.Bot);
                     if (preExistingBotCount > saveGameData.BotCount)
                         GameControl.Instance.BotAmount = preExistingBotCount;
                     else
@@ -131,20 +125,20 @@ namespace VirbelaHodge.Scripts.ScriptableObjects
             public List<float> BotPositionsY { get; private set; }
             public List<float> BotPositionsZ { get; private set; }
 
-            public SaveGameData(Vector3 playerPosition, int itemCount, int botCount, List<IVBHObject> vBHOs)
+            public SaveGameData(Vector3 playerPosition)
             {
                 PlayerPositionX = playerPosition.x;
                 PlayerPositionY = playerPosition.y;
                 PlayerPositionZ = playerPosition.z;
-                ItemCount = itemCount;
-                BotCount = botCount;
+                ItemCount = GameControl.Instance.ItemAmount;
+                BotCount = GameControl.Instance.BotAmount;
                 ItemPositionsX = new List<float>();
                 ItemPositionsY = new List<float>();
                 ItemPositionsZ = new List<float>();
                 BotPositionsX = new List<float>();
                 BotPositionsY = new List<float>();
                 BotPositionsZ = new List<float>();
-                foreach (IVBHObject vBHO in vBHOs)
+                foreach (IVBHObject vBHO in GameControl.Instance.VBHObjects)
                 {
                     if (vBHO.TheObjectRole == VBHORole.Item)
                     {

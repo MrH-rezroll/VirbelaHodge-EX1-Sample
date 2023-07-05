@@ -20,6 +20,8 @@ namespace VirbelaHodge.Scripts.Control
 
         public int ItemAmount { get { return itemAmount; } set { itemAmount = value; } }
         public int BotAmount { get { return botAmount; } set { botAmount = value; } }
+        public bool LoadPreviousItems { get { return loadPreviousItems; } private set { loadPreviousItems = value; } }
+        public bool LoadPreviousBots { get { return loadPreviousItems; } private set { loadPreviousBots = value; } }
         public List<IVBHObject> VBHObjects { get { return vBHObjects; } private set { vBHObjects = value; } }
 
         [TextArea, ReadOnly, SerializeField]
@@ -113,11 +115,11 @@ namespace VirbelaHodge.Scripts.Control
         /// </summary>
         private void Start()
         {
-            if (gameplayData.LoadGameplayDataFromFile(loadPreviousItems, loadPreviousBots))
+            if (gameplayData.LoadGameplayDataFromFile())
                 player.TheTransform.position = gameplayData.PlayerPosition;
-            if(!loadPreviousItems && itemAmount > 0)
+            if(!loadPreviousItems && itemAmount >= 0)
                 GenerateItems();
-            if(!loadPreviousBots && botAmount > 0)
+            if(!loadPreviousBots && botAmount >= 0)
                 GenerateBots();
             IVBHObject.OrganizeVBHObjects(vBHObjects);
             SetGameState(1);
@@ -156,7 +158,7 @@ namespace VirbelaHodge.Scripts.Control
         /// </summary>
         private void OnApplicationQuit()
         {
-            gameplayData.SaveGameplayDataToFile(itemAmount, botAmount, vBHObjects);
+            gameplayData.SaveGameplayDataToFile();
         }
 
         #endregion
@@ -168,6 +170,8 @@ namespace VirbelaHodge.Scripts.Control
         /// </summary>
         public void GenerateItems()
         {
+            if (itemAmount < GetVBHOExistingRoleCount(VBHORole.Item))
+                itemAmount = GetVBHOExistingRoleCount(VBHORole.Item);
             IVBHObject.GenerateIVBHObjects(vBHObjects, resourceData.PrefabDictionary["Item"], itemAmount, itemGeneratorSeed);
         }
 
@@ -177,7 +181,18 @@ namespace VirbelaHodge.Scripts.Control
         /// </summary>
         public void GenerateBots()
         {
+            if (botAmount < GetVBHOExistingRoleCount(VBHORole.Bot))
+                botAmount = GetVBHOExistingRoleCount(VBHORole.Bot);
             IVBHObject.GenerateIVBHObjects(vBHObjects, resourceData.PrefabDictionary["Bot"], botAmount, botGeneratorSeed);
+        }
+
+        public int GetVBHOExistingRoleCount(VBHORole roleToCheck)
+        {
+            int preExistingVBHORoleCount = 0;
+            foreach (IVBHObject vBHO in VBHObjects)
+                if (vBHO.TheObjectRole == roleToCheck)
+                    preExistingVBHORoleCount++;
+            return preExistingVBHORoleCount;
         }
         #endregion
 
