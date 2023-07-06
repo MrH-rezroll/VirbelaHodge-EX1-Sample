@@ -755,12 +755,12 @@ MonoBehaviour:
   baseItemColor: {r: 1, g: 0.8726415, b: 0.87366045, a: 0}
   highlightedItemColor: {r: 1, g: 0, b: 0, a: 0}
   loadPreviousItems: 0
-  itemAmount: 0
+  itemAmount: 5
   itemGeneratorSeed: 1
   baseBotColor: {r: 0.8021093, g: 0.83203673, b: 0.9716981, a: 0}
   highlightedBotColor: {r: 0, g: 0.17614985, b: 1, a: 0}
   loadPreviousBots: 0
-  botAmount: 0
+  botAmount: 5
   botGeneratorSeed: 1
 --- !u!4 &1169079658
 Transform:

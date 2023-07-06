@@ -274,6 +274,30 @@ namespace VirbelaHodge.Scripts.Control
             }
         }
 
+        /// <summary>
+        /// Sets a VBHObject's shared material to the appropriate default shared material.
+        /// </summary>
+        /// <param name="vBHOToSet">The VBHObject to set shared material on.</param>
+        private void SetVBHOSharedMaterialToDefault(IVBHObject vBHOToSet)
+        {
+            if (vBHOToSet.TheGameObject.GetComponent<Item>())
+                vBHOToSet.TheRenderer.sharedMaterial = resourceData.MaterialDictionary["BaseItem"];
+            else if (vBHOToSet.TheGameObject.GetComponent<Bot>())
+                vBHOToSet.TheRenderer.sharedMaterial = resourceData.MaterialDictionary["BaseBot"];
+        }
+
+        /// <summary>
+        /// Sets a VBHObject's shared material to the appropriate highlighted shared material.
+        /// </summary>
+        /// <param name="vBHOToSet">The VBHObject to set shared material on.</param>
+        private void SetVBHOSharedMaterialToHighlighted(IVBHObject vBHOToSet)
+        {
+            if (vBHOToSet.TheGameObject.GetComponent<Item>())
+                vBHOToSet.TheRenderer.sharedMaterial = resourceData.MaterialDictionary["HighlightedItem"];
+            else if (vBHOToSet.TheGameObject.GetComponent<Bot>())
+                vBHOToSet.TheRenderer.sharedMaterial = resourceData.MaterialDictionary["HighlightedBot"];
+        }
+
         #endregion
 
         #region Private Coroutines
@@ -314,20 +338,13 @@ namespace VirbelaHodge.Scripts.Control
                     {
                         if (!iVBHO.TheGameObject.GetComponent<Player>())
                         {
-                            if (iVBHO.TheGameObject.GetComponent<Item>())
-                                iVBHO.TheRenderer.sharedMaterial = resourceData.MaterialDictionary["BaseItem"];
-                            else if (iVBHO.TheGameObject.GetComponent<Bot>())
-                                iVBHO.TheRenderer.sharedMaterial = resourceData.MaterialDictionary["BaseBot"];
-
+                            SetVBHOSharedMaterialToDefault(iVBHO);
                             if (Vector3.Distance(player.TheTransform.position, nearestIVBHO.TheTransform.position) > Vector3.Distance(player.TheTransform.position, iVBHO.TheTransform.position))
                                 nearestIVBHO = iVBHO;
                         }
                     }
 
-                    if (nearestIVBHO.TheGameObject.GetComponent<Item>())
-                        nearestIVBHO.TheRenderer.sharedMaterial = resourceData.MaterialDictionary["HighlightedItem"];
-                    else if (nearestIVBHO.TheGameObject.GetComponent<Bot>())
-                        nearestIVBHO.TheRenderer.sharedMaterial = resourceData.MaterialDictionary["HighlightedBot"];
+                    SetVBHOSharedMaterialToHighlighted(nearestIVBHO);
 
                     player.NearestIVBHObject = nearestIVBHO.TheGameObject;
                 }
